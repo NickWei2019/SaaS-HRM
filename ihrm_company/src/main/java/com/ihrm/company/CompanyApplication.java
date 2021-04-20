@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 @EntityScan(value = "com.ihrm")
 public class CompanyApplication {
     public static void main(String[] args) {
-        //分支：dev
+        //分支：master
         SpringApplication.run(CompanyApplication.class,args);
     }
 
